@@ -116,7 +116,16 @@ class DiscordBotWidget extends Module
 
 				if (PAGE != 404) {
 
-					if (PAGE == 'index' or PAGE == 'status' or PAGE == 'forum' or PAGE == 'rules' or PAGE == 'voted' or PAGE == 'McTrade' or is_numeric(PAGE)) {
+          $allowedPages = array(
+            'index' => 1,
+            'status' => 1,
+            'forum' => 1,
+            'rules' => 1,
+            'voted' => 1,
+            'McTrade' => 1,
+          );
+
+					if (isset($allowedPages[PAGE]) or is_numeric(PAGE)) {
 						$template->addJSFiles(array(
 							'https://cdn.jsdelivr.net/npm/@widgetbot/crate@3' => array()
 						));
