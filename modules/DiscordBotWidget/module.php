@@ -120,7 +120,9 @@ class DiscordBotWidget extends Module
             'index' => 1,
             'status' => 1,
             'forum' => 1,
+            'wiki' => 1,
             'rules' => 1,
+            'tickets' => 1,
             'voted' => 1,
             'McTrade' => 1,
           );
