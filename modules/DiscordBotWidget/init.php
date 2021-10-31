@@ -12,8 +12,8 @@
 $INFO_MODULE = array(
 	'name' => 'DiscordBotWidget',
 	'author' => '<a href="https://lectrichost.com" target="_blank" rel="nofollow noopener">Mubeen</a> & <a href="https://tensa.co.ua" target="_blank" rel="nofollow noopener">xGIGABAITx</a>',
-	'module_ver' => '1.0.1',
-	'nml_ver' => '2.0.0-pr10',
+	'module_ver' => '1.0.2',
+	'nml_ver' => '2.0.0-pr12',
 );
 
 $DiscordBotLanguage = new Language(ROOT_PATH . '/modules/' . $INFO_MODULE['name'] . '/language', LANGUAGE);
